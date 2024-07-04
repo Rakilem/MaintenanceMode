@@ -1,0 +1,14 @@
+name: MaintenanceMode
+main: com.rakilem.maintenancemode.Main
+version: 1.0.0
+api: ["1.0.0, 2.0.0"]
+author: Rakilem YT
+commands:
+  maintenance:
+    description: /maintenance <on|off>
+    usage: /maintenance <on|off>
+    permission: maintenance.command
+permissions:
+  maintenance.command:
+    description: Allows the use of the /maintenance <on|off>
+    default: op

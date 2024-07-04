@@ -1,0 +1,8 @@
+maintenance-mode: false
+allowed-players:
+  - example_player
+messages:
+  maintenance: "§cThe server is in maintenance mode.\n§ePlease come back later."
+  maintenance-on: "§aThe server is now in maintenance mode."
+  maintenance-off: "§aThe server has exited maintenance mode."
+  usage: "§bUsage: /maintenance <on|off>"
